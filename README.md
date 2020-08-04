@@ -28,3 +28,5 @@ The *services-vpnv4* data model is a dictionary of customers with every customer
 
 * **rd** - value used for MPLS/VPN RD and import/export RT (the data model and the playbooks support only simple non-overlapping VPNs)
 * **nodes** - a dictionary of PE-routers used in this service. The values of these elements is a dictionary of VRF interfaces with each interface having **ip** element (IP prefix configured on PE-router VRF interface)
+
+* **test**
